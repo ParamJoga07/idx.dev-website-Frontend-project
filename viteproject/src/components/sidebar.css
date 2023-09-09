@@ -1,0 +1,159 @@
+/* Sidebar Container */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background: rgb(23,30,41); /* Updated background property */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1; 
+  }
+  
+  
+  
+  /* Logo */
+  .logo-container {
+    text-align: center;
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Menu Items */
+  .menu-items {
+    margin-top: 20px;
+  }
+  
+  .menu-item {
+    padding: 10px;
+    border-bottom: 1px solid #444; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  
+    /* Hover Effect */
+    &:hover {
+      background-color: #444; 
+    }
+  }
+  
+  /* Google Symbol */
+  .google-symbol {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .google-symbol img {
+    max-width: 25px;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  
+  /* Navbar Container */
+.navbar {
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Navbar Button */
+  .navbar-button {
+    background-color:rgb(16,21,29);
+    color: #989898;
+    height: 50px;
+    border: 1px solid #343434; /* Added border property */
+    border-radius: 35px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  .navbar-button2 {
+    background-color:rgb(168,127,250);
+    color: #000000;
+    height: 50px;
+    width: 150px;
+    border: 1px solid #8c8c8c; /* Added border property */
+    border-radius: 35px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 800;
+  }
+  
+  
+  .navbar-button:hover {
+    background-color: #444; 
+  }
+  .box{
+    margin-left: 50px;
+    padding-top: 200px;
+    background-color: transparent;
+    
+  }
+
+  .textcenter{
+    color: rgb(175, 175, 175);
+    text-align: center;
+  }
+
+  h3{
+font-size: 24px;
+  }
+
+  .arrow{
+    padding-top: 100px;
+   
+  }
+
+  .arrowstyling{
+    height: 70px;
+  }
+
+  .textanimation{
+    width: 800px;
+  }
+
+.introduction{
+   
+    width: 400px;
+    height: 600px;
+    /* background-color: #000000; */
+}
+
+.introbox{
+    padding-top: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.intrologo{
+    height: 80px;
+    float: left; /* Add this CSS property to align the logo to the left */
+  margin-right: 20px;
+    
+}
+
+h1{
+    color:rgb(201, 201, 201);
+    font-weight: 500;
+    text-align: left;
+}
+
+.introP{
+    color: rgb(127,140,155);
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+}

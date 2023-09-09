@@ -1,0 +1,52 @@
+
+
+  h3{
+font-size: 24px;
+  }
+
+  .arrow{
+    padding-top: 100px;
+   
+  }
+
+  .arrowstyling{
+    height: 70px;
+  }
+
+  .textanimation{
+    width: 800px;
+  }
+
+.development{
+   
+    width: 600px;
+    height: 600px;
+    /* background-color: #000000; */
+}
+
+.developementbox{
+    padding-top: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.intrologo{
+    height: 80px;
+    float: left; /* Add this CSS property to align the logo to the left */
+  margin-right: 20px;
+    
+}
+
+h5{
+    color:rgb(201, 201, 201);
+    font-weight: 500;
+    text-align: left;
+    font-size: 60px;
+}
+
+.introP{
+    color: rgb(127,140,155);
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+}

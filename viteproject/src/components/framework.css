@@ -1,0 +1,24 @@
+.frameworks{
+    width: 89%;
+height: 750px;
+/* border: solid 1px; */
+display: flex;
+margin-left: 8%;
+border-color: rgb(58, 92, 121);
+padding-bottom: 100px;
+}
+
+.languages{
+    float:left;
+    border: solid 1px;
+    border-color: rgb(58, 92, 121);
+    height: 650px;
+    width: 65%;
+}
+
+.frameworkText{
+    border: solid 1px;
+    border-color: rgb(58, 92, 121);
+    height: 450px;
+    width: 35%;
+}

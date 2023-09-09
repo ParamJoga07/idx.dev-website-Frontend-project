@@ -1,0 +1,34 @@
+.platforms{
+    width: 89%;
+height: 650px;
+border: solid 1px;
+border-left: none;
+border-bottom: none;
+display: flex;
+margin-left: 8%;
+border-right: none;
+
+border-color: rgb(58, 92, 121);
+padding-bottom: 200px;
+}
+
+.work{
+    border: solid 1px;
+    border-color: rgb(58, 92, 121);
+    float: left;
+    width: 550px;
+    height: 450px;
+    border-right: none;
+    border-top: none;
+}
+
+
+.mobile{
+    border: solid 1px;
+    border-color: rgb(58, 92, 121);
+    width: 100%;
+    border-top: none;
+    height: 650px;
+   
+
+}
