@@ -9,6 +9,7 @@ import Frameworks from './components/frameworks'
 import Platforms from './components/platforms'
 import Generative from './components/generative'
 import DevelopementWorkflow from './components/DevelopementWorkflow'
+import DropdownForm from './components/forms'
 
 
 function App() {
@@ -17,13 +18,16 @@ function App() {
    <div className="main">
      <ParallaxStars></ParallaxStars>
     <Sidebar />
-  
+    <DropdownForm></DropdownForm>
        <Center></Center>
        <Mobileanimation></Mobileanimation>
        <Frameworks></Frameworks>
        <Platforms></Platforms>
+      
        <Generative></Generative>
+      
        <DevelopementWorkflow></DevelopementWorkflow>
+       
      
    
    </div>
