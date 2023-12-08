@@ -66,16 +66,21 @@ button {
 {
   left: 50%;
   width: 40%;
+  /* background-color:rgb(23,30,41); */
 }
 
 input {
   margin: 0px 0;
   padding-bottom: 10px;
-  background-color: transparent;
+  background-color:rgb(23,30,41);
   border: none;
   border-bottom: 1px solid;
   color: rgb(138,152,168);
   width: 20%;
+}
+select{
+  background-color: rgb(23,30,41); 
+  color: rgb(255, 255, 255);
 }
 
 .remove{

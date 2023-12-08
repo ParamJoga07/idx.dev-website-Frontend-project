@@ -47,12 +47,23 @@ padding-bottom: 200px;
     border-right: solid 1px;
     border-color: rgb(58, 92, 121);
     width: 4%;
+    float: left;
 }
 
 .textanimation{
     border-right: solid 1px;
     border-color: rgb(58, 92, 121);
-    width: 50%;
+    width: 200px;
+    left: 4%;
+}
+
+.phonepic{
+  left: 0%;
+   margin-top: 0;
+width: 90%;
+
+border-color: rgb(58, 92, 121);
+justify-content: center;
 }
 
 .menubar{
@@ -72,4 +83,111 @@ padding-bottom: 200px;
     border: solid 1px;
     border-color:  rgb(58, 92, 121);
     width: 80%;
+}
+
+
+
+.mobilecenter{
+   margin-top: 90px;
+    height: 320px;
+    background-color: black;
+    border: 1px solid;
+    width: 155px;
+    border-color: rgb(63, 75, 92);
+
+border-radius: 30px;
+}
+
+.mobilebessels{
+   margin-top: 10px;
+    height: 300px;
+    width: 140px;
+    border-radius: 20px;
+    background-color:  rgb(51,62,79);
+  
+   
+}
+
+
+
+.bbm1{
+    
+    background-color: black;
+    height: 11px;
+    margin-top: 10px;
+    width: 55px;
+    padding: 0px 10px;
+    border-radius: 20px;
+}
+.bbm2{
+    
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    width: 90px;
+    padding: 0px 25px;
+    border-radius: 20px;
+}
+
+.bbm3{
+    background-color: rgb(70, 70, 70);
+    height: 8px;
+    width: 70px;
+    padding: 0px 10px;
+    border-radius: 20px;
+}
+
+.bbm4{
+    margin-top: 15px;
+    background-color: rgb(168,127,250);
+    height: 15px;
+    width: 70px;
+    padding: 0px 10px;
+    border-radius: 20px;
+}
+
+.boxcontainer{
+    display: flex;
+    gap: 10px;
+}
+
+@keyframes colorChange {
+    0% {
+      background-color: rgb(255, 193, 110); 
+    }
+    50% {
+      background-color:  rgb(168,127,250); 
+    }
+    100% {
+      background-color: rgb(255, 193, 110); /* Back to orange at the end of the animation */
+    }
+  }
+  
+  .orangebox1 {
+    margin-left: 20px;
+    height: 130px;
+    margin-top: 15px;
+    width: 120px;
+    background-color: rgb(255, 193, 110);
+    border-radius: 5px;
+    animation: colorChange 1.5s infinite; /* Apply the animation */
+  }
+.bluebox1{
+    height: 130px;
+    margin-top: 15px;
+    width: 15px;
+    background-color:rgb(35,166,233);
+    border-radius: 5px 0px 0px 5px;
+    
+}
+
+.inv{
+    height: 50px;
+    width: 40px;
+}
+.circleshape{
+ 
+    height: 30px;
+    width: 30px;
+    border-radius: 70px;
+    background-color: white;
 }

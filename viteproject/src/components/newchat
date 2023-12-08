@@ -1,0 +1,67 @@
+.Newchat-container{
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+}
+
+.New-chat{
+    flex-direction: row;
+    border-color: rgb(58, 92, 121);
+    border: solid 1px;
+    height: 880px;
+    width: 50%;
+    border-color: rgb(58, 92, 121);
+    border-top: none;
+    border-bottom: none;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.newchat-button{
+    background-color: rgb(39,39,42);
+    color: #FFFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: none;
+    padding: 12px 100px;
+    border-color: none;
+    border-radius: 0.25rem;
+    border-width: 1px;
+}
+.middlecontainer-chat{
+    display: flex;
+    margin-top: 10px;
+   
+
+}
+.book-logo{
+    background-color: rgb(39,39,42);
+    height: 42px;
+}
+.search-model-container{
+    background-color: rgb(39,39,42);
+    width: 30%;
+    height: 30px;
+    padding: 8px 8px;  
+    color: #FFFF;
+    margin-left: 480px;
+    
+}
+.scrolable-button{
+    background-color: rgb(39,39,42);
+    padding: 12px 100px;
+    margin-top: 10px;
+}
+.sscrollable-menu {
+    align-items: center;
+    height: auto;
+    max-height: 300px;
+    overflow-x: hidden;
+}
+.btn-group{
+    margin-left: -50px;
+    padding-top: 200px;
+    width: 350px;
+    padding-bottom: 20px;
+}

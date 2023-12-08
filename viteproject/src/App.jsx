@@ -16,17 +16,18 @@ function App() {
 
   return (
    <div className="main">
-     <ParallaxStars></ParallaxStars>
-    <Sidebar />
-    <DropdownForm></DropdownForm>
-       <Center></Center>
+     {/* <ParallaxStars></ParallaxStars>
+    <Sidebar /> */}
+    {/* <DropdownForm isOpen={isOpen} setIsOpen={setIsOpen} ></DropdownForm> */}
+       {/* <Center></Center>
        <Mobileanimation></Mobileanimation>
        <Frameworks></Frameworks>
        <Platforms></Platforms>
       
        <Generative></Generative>
       
-       <DevelopementWorkflow></DevelopementWorkflow>
+       <DevelopementWorkflow></DevelopementWorkflow> */}
+       <Newchat></Newchat>
        
      
    

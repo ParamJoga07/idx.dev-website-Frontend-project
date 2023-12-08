@@ -1,0 +1,95 @@
+
+.mobileleftside{
+    margin-left: 150px;
+    height: 260px;
+    background-color: black;
+   border: 1px solid;
+    width: 135px;
+    border-color: rgb(63, 75, 92);
+    position: absolute;
+z-index: 3;
+margin-top: 270px;
+border-radius: 30px;
+}
+
+.mobilebesselsinnner{
+   margin-top: 10px;
+    height: 240px;
+    width: 110px;
+    border-radius: 20px;
+    background-color:  rgb(51,62,79);
+  
+   
+}
+
+
+
+.bbb1{
+    
+    background-color: black;
+    height: 11px;
+    margin-top: 10px;
+    width: 40px;
+    padding: 0px 10px;
+    border-radius: 20px;
+}
+.bbb2{
+    
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    width: 80px;
+    padding: 0px 10px;
+    border-radius: 20px;
+}
+
+.bbb3{
+    background-color: rgb(70, 70, 70);
+    height: 8px;
+    width: 50px;
+    padding: 0px 10px;
+    border-radius: 20px;
+}
+
+.bbb4{
+    margin-top: 15px;
+    background-color: rgb(168,127,250);
+    height: 15px;
+    width: 70px;
+    padding: 0px 10px;
+    border-radius: 20px;
+}
+
+.boxcontainer{
+    display: flex;
+    gap: 10px;
+}
+
+.orangebox{
+    margin-left: 20px;
+    height: 110px;
+    margin-top: 15px;
+    width: 80px;
+    background-color: rgb(255,193,110);
+    border-radius: 5px;
+    
+}
+.bluebox{
+    height: 110px;
+    margin-top: 15px;
+    width: 15px;
+    background-color:rgb(35,166,233);
+    border-radius: 5px 0px 0px 5px;
+    
+}
+
+.invisble{
+    height: 40px;
+    width: 30px;
+}
+.circleinner{
+ 
+    height: 30px;
+    width: 30px;
+    border-radius: 70px;
+    background-color: white;
+}
